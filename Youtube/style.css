@@ -15,12 +15,16 @@ body{
 }
 .logo-youtube{
  display: flex;
+ justify-content: flex-start;
+ align-items: center;
  height: 150px;
 }
 
 .youtube1{
   width: 150px;
   height: 150px;
+  position: relative;
+  left: 40px;
 }
 .menu-pesquisar{
   display: flex;
@@ -89,7 +93,8 @@ height: 50px;
   border-radius: 40px 40px 40px 40px;
 }
 .main{
-  width: 50%;
+  
+  width: 66%;
   height: 100%;
   padding: 50px;
 }
@@ -134,7 +139,7 @@ video{
   display: flex;
   position: relative;
   top: 15px;
-  left: 170px;
+  left: 160px;
   gap: 15px;
 }
 .pra-cima{
@@ -194,4 +199,35 @@ video{
   position: relative;
   left: 20px;
   padding: 2px;
+}
+.pontinhos{
+  width: 40px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 30px 30px 30px 30px;
+}
+.ponto{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -19px;
+}
+.descricao{
+  display: flex;
+  justify-content: start;
+  background-color: #F2F2F2;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 63vw;
+  height: 100%;
+  padding: 50px;
+  position: relative;
+  top: -30px;
+  left: 45px;
+}
+.vizualizacao{
+  
+
+
 }
