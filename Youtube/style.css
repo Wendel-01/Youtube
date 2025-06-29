@@ -47,6 +47,9 @@ border-radius:  0 40px 40px 0;
 width: 60px;
 height: 50px;
 }
+.divlupa:hover{
+  background-color: #F2F2F2;
+}
 .lupa{
   display: flex;
   width: 40px;
@@ -61,14 +64,20 @@ height: 50px;
   align-items: center;
   border: 1px solid black;
   border-radius: 40px 40px 40px 40px;
+  
   width: 50px;
   height:50px;
   margin-left: 10px;
 }
 
+.microphone:hover{
+  background-color: #F2F2F2;
+}
+
 .img-micro{
   width: 30px;
   height: 30px;
+  border-radius: 40px 40px 40px 40px;
 }
 
 .sino{
@@ -79,10 +88,15 @@ height: 50px;
   gap: 1rem;
 }
 
+
 .sino1{
   display: flex;
   justify-content: end;
   width: 60px;
+}
+.sino1:hover{
+  border-radius: 40px 40px 40px 40px;
+  background-color: #F2F2F2;
 }
 .foto{
   display: flex;
@@ -94,7 +108,7 @@ height: 50px;
 }
 .main{
   
-  width: 66%;
+  width: 66vw;
   height: 100%;
   padding: 50px;
 }
@@ -235,7 +249,7 @@ video{
   display: inline-block;
   flex-direction: row;
   position: relative;
-  left: 48px;
+  left: 50px;
   
 }
 
@@ -252,5 +266,59 @@ video{
   font-size: 20px;
 }
 
+.container-comentarios{
+  display: flex;
+  width: 64vw;
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
 
+.comenta{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  position: relative;
+  top: -5px;
+  left: 30px;
+  width: 94%;
+}
 
+.foto-comentario{
+  border: 1px solid black;
+  border-radius: 40px 40px 40px 40px;
+  width: 40px;
+  position: relative;
+  left: 20px;
+
+}
+.container-coment{
+  display: flex;
+  flex-direction: column;
+  width: 64vw;
+  padding: 18px;
+  gap: 5rem;
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+
+.all-coment{
+  border-radius: 40px 40px 40px 40px;
+}
+
+.container-coment h5{
+  position: relative;
+  top: -45px;
+  left: 50px;
+}
+
+.container-coment span{
+  color: rgb(126, 123, 123);
+}
+
+.container-coment p{
+  position: relative;
+  left: 50px;
+  top: -40px;
+}
